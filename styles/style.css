@@ -1,0 +1,52 @@
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f8f8f8;
+    border-radius: 50px;
+    padding: 20px;
+    height: 400px;
+    width: 300px;
+    text-align: center;
+  }
+
+  .city {
+    font-size: 45px;
+    margin-bottom: 10px;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .info i {
+    font-size: 100px;
+    color: lightblue;
+  }
+
+  .temperature {
+    font-size: 50px;
+    font-weight: bold;
+  }
+
+  .details {
+    font-size: 18px;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+  }
+
+
+  
