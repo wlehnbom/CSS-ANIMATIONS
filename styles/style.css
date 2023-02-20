@@ -48,5 +48,10 @@ body {
     flex-direction: row;
   }
 
+  .animate__pulse {
+    animation: pulse infinite;
+  }
+  
+
 
   
