@@ -34,6 +34,7 @@ body {
   .info i {
     font-size: 100px;
     color: lightblue;
+    animation: shake 0.5s infinite;
   }
 
   .temperature {
@@ -52,6 +53,16 @@ body {
     animation: pulse infinite;
   }
   
-
+  @keyframes shake {
+    0%, 100% {
+      transform: translateX(0);
+    }
+    25%, 75% {
+      transform: translateX(-10px);
+    }
+    50% {
+      transform: translateX(10px);
+    }
+  }
 
   
